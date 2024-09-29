@@ -1,0 +1,10 @@
+#produtos{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   justify-content: space-around;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   margin-top: 200px;
+   
+}

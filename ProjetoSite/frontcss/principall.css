@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    height:65%; ;
+    width: 100%;
+    background-image:url("../conteudos/fundo-de-desenho-floral-linear_23-2149130875.webp");
+    background-repeat: no-repeat;
+    background-size:100%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.slogan{
+    height: 10% ;
+    width: 100%; ;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+}
+
+.menu{
+    height: 25% ;
+    width: 100%; ;
+    background-color: rgb(6, 46, 39);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+ }
+
+a{
+    color:rgb(247, 245, 241);
+    text-decoration: none;
+    background-color: rgb(6, 46, 39);
+    font-size: 20px;    
+}
+a:hover {
+    color: rgb(105, 255, 225);
+    text-decoration: underline;
+    text-decoration: none;
+}
+  
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    margin-top: 200px;
+}
+#mensagem{
+   /* background-color: rgb(6, 46, 39);*/
+    width: 700px;
+    height: 200x;
+    font-size: 35px;
+    color: rgb(6, 46, 39);;
+    padding: 20px;
+}
+#depoimento{
+    width: 100%;
+    margin-top: 200px;
+    background-color: rgb(69, 82, 56);
+    height: 300px;
+
+    
+}
+.tela2{
+    background-image:url("../conteudos/fundo-de-desenho-floral-linear_23-2149130875.webp");
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+}
+#titulo{
+    font-size: 25px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+#comentarios{
+    height: 350px;
+    width: 100%;
+    display: flex;
+
+}
+.card{
+   margin: 20px;
+   width: 20%;
+   height: 30%;
+   background-color: rgb(200, 216, 184);
+   font-size: 20px;
+   padding: 20px;
+   
+   
+
+
+}
+.contatos{
+    margin-top: 400px;
+    width: 98%;
+    height: 300px;
+    background-color: rgb(6, 46, 39);
+    color: white;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 30px;
+    
+
+}
+#icons{
+   width: 100%;
+   height: 100px;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+    
+}
